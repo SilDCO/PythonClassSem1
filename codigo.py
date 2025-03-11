@@ -48,3 +48,23 @@ else:
 
 #print ("I left the pub, the money left is: ", moneyInMywallet)
 
+secret_number = 777
+print(
+"""
++================================+
+| Welcome to my game, muggle!    |
+| Enter an integer number        |
+| and guess what number I've     |
+| picked for you.                |
+| So, what is the secret number? |
++================================+
+""")
+numberguess = int(input("Guess the secret number: "))
+
+while numberguess != secret_number:
+    print ("Ha ha! You're stuck in my loop!")
+    numberguess = int(input("Try again, guess the number: "))
+else: 
+    print ("Well done, muggle! You are free now.")
+
+ 
