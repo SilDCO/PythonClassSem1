@@ -52,10 +52,29 @@
 
 # Write a print function with the final message.
 
-import time
-i = 3
+#import time
+#i = 3
 
-for i in range(1 , 6):
-    print (i , "mississippi")
-    time.sleep(3)
-print ("Here I come!")
+#for i in range(1 , 6):
+    #print (i , "mississippi")
+    #time.sleep(3)
+#print ("Here I come!")
+
+
+# Store the current largest number here.
+largest_number = -999999999
+
+# Input the first value.
+number = int(input("Enter a number or type -1 to stop: "))
+
+# If the number is not equal to -1, continue.
+while number != -1:
+    # Is number larger than largest_number?
+    if number > largest_number:
+        # Yes, update largest_number.
+        largest_number = number
+    # Input the next number.
+    number = int(input("Enter a number or type -1 to stop: "))
+
+# Print the largest number.
+print("The largest number is:", largest_number)
