@@ -12,10 +12,10 @@
 #else:
 #    print (False)
 
-sheep_counter = int(input("Whats the numbers of sheeps: "))
+#sheep_counter = int(input("Whats the numbers of sheeps: "))
 
-if sheep_counter >= 120:
-    print ("Make a bed")
-    print ("take_a_shower")
-    print ("sleep_and_dream")
-print ("feed_the_sheepdogs")
+#if sheep_counter >= 120:
+#    print ("Make a bed")
+#    print ("take_a_shower")
+#    print ("sleep_and_dream")
+#print ("feed_the_sheepdogs")
