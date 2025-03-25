@@ -26,4 +26,22 @@ else:
 #tax = round(tax,0)
 #print("The tax is:", tax, "thalers")
 
- 
+#age = int(input("How old are you : "))
+
+#if age >= 18:
+    #print ("Adult")
+#else:
+   #print ("Minor")
+
+i = ("red", "green" , "blue")
+
+for i in i ("red", "green" , "blue"):
+
+    print (i, "colour")
+
+#i = 3
+
+#for i in range(1 , 6):
+    #print (i , "mississippi")
+    #time.sleep(3)
+#print ("Here I come!")
